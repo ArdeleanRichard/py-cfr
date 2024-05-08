@@ -1,7 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-from utils import minimize, extractFeatures, summarizeLDS, sumTensor
+from .utils import minimize, extractFeatures, summarizeLDS, sumTensor
 
 
 def shuffle(dataTensor, shuffle_mode, fix_mode, cyclicShfl):
